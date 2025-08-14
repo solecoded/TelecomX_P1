@@ -5,7 +5,7 @@ Este proyecto tiene como finalidad
 ---
 
 ### 📋 Información para partir
-* Recibimos 1 archivos .json en donde hay registros y datos de clientes.
+* Recibimos 1 archivos .json en donde hay registros y datos de clientes. Parte del desafío es limpiarlos y dejarlos listos para el análisis.
 * El nombre de las columnas reales y originales encontradas en el archivo .json. Agrego la traducción que me parece más clara y correcta para mi desarrollo del proyecto:
 
   * **customerID →** ID_cliente
