@@ -8,27 +8,31 @@ Este proyecto tiene como finalidad .
 * Recibimos 1 archivos .json en donde hay registros y datos de clientes.
 * El nombre de las columnas originales y traducidas:
 
-  * **customerID →** número de identificación único de cada cliente
-  * **Churn →** si el cliente dejó o no la empresa
-  * **gender →** género (masculino y femenino)
-  * **SeniorCitizen →** información sobre si un cliente tiene o no una edad igual o mayor a 65 años
-  * **Partner →** si el cliente tiene o no una pareja
-  * **Dependents →** si el cliente tiene o no dependientes
-  * **tenure →** meses de contrato del cliente
-  * **PhoneService →** suscripción al servicio telefónico
-  * **MultipleLines →** suscripción a más de una línea telefónica
-  * **InternetService →** suscripción a un proveedor de internet
-  * **OnlineSecurity →** suscripción adicional de seguridad en línea
-  * **OnlineBackup →** suscripción adicional de respaldo en línea
-  * **DeviceProtection →** suscripción adicional de protección del dispositivo
-  * **TechSupport →** suscripción adicional de soporte técnico, menor tiempo de espera
-  * **StreamingTV →** suscripción de televisión por cable
-  * **StreamingMovies →** suscripción de streaming de películas
-  * **Contract →** tipo de contrato
-  * **facturaOnline →** si el cliente prefiere recibir la factura en línea
-  * **metodoPago →** Método de pago usado por cliente
-  * **cargosMensuales →**Total mensual de gasto en todos los servicios contratados por el cliente
-  * **cargosTotales →** Total gastado por cliente en la empresa
+  * **customerID →** ID_cliente
+  * **Churn →** churn
+  * **customer →** cliente
+  * **gender →** genero
+  * **SeniorCitizen →** adultoMayor
+  * **Partner →** pareja
+  * **Dependents →** dependientes
+  * **tenure →** permanenciaMeses
+  * **phone →** telefono
+  * **internet →** internet
+  * **account →** cuenta
+  * **PhoneService →** servicioTelefonico
+  * **MultipleLines →** multiplesLineas
+  * **InternetService →** servicioInternet
+  * **OnlineSecurity →** seguridadOnline
+  * **OnlineBackup →** respaldoOnline
+  * **DeviceProtection →** proteccionDispositivo
+  * **TechSupport →** soporteTecnico
+  * **StreamingTV →** streamingTV
+  * **StreamingMovies →** streamingPeliculas
+  * **Contract →** tipoContrato
+  * **PaperlessBilling →** facturacionOnline
+  * **PaymentMethod →** metodoPago
+  * **Charges.Monthly →** cargosMensuales
+  * **Charges.Total →** cargosTotales
 
 ---
 
@@ -46,18 +50,18 @@ Este proyecto tiene como finalidad .
 **📕 Nota:** Se indica que los datos a analizar van desde el 1 de enero de 2020 al 31 de marzo del 2023. Esa información la pude sacar por tablas, pero como hay gráficos que no se visualizan en Github, tuve que sacar capturas de pantalla a cada uno de ellos y eso aumentó bastante el peso de mi notebook. Eliminé todo lo que pude, incluyendo las tablas donde se ve la primera y la ultima compra registrada en todas las tiendas para llegar a un peso más liviano.
 
 El proyecto fue realizado en Google Colab y tiene la siguiente estructura:
-* 📥 **Extracción y carga de datos :**
-   * Se llaman los .csv cargados en este repositorio.
-   * Luego, se limpian y preparan los datos para el análisis: conversión de columnas a tipos numéricos y el manejo de valores nulos.
-   * Para asegurarnos que haya quedado bien, al final se imprimen los nombres de columnas y los 5 primeros datos por tienda.
+* 📥 **Extracción, verificación y resumen dataframe :**
+   * Importa .json / Verifica que la conversión a DataFrame sea exitosa
+   * Resumen del DataFrame
  
-* 💰 **Ingresos totales por tienda :**
-   * Suma total de ingresos por tienda
-   * 📊 Porcentaje total de ventas por tienda
-   * 📊 Ingresos totales por tienda
-   * 📊 Ventas totales por tienda y año v/s media (2020-2022)
-   * 📊 Porcentaje de cuota de venta (ingresos), por tienda y por año (1/2020 - 3/2023)
-   * 📊 Cantidad de ventas por tienda y año
+* 🔄 **Transformación**
+   * Aplanado de columnas
+   * Mapeo nombre de columnas a sus traducciones
+   * Normalización columna cargosTotales
+   * Normalización situación sentimental
+   * Normalizacion Datos de internet
+   * Normalización columna Dependientes
+   * 
    
 * 📦 **Ventas por categoría :**
    * 📊 Porcentaje de ventas por categoría por tiendas
