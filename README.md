@@ -1,12 +1,12 @@
 ![Header](imgs/TelecomX_P1_Header.jpg)
 
-Este proyecto tiene como finalidad .
+Este proyecto tiene como finalidad 
 
 ---
 
 ### 📋 Información para partir
 * Recibimos 1 archivos .json en donde hay registros y datos de clientes.
-* El nombre de las columnas originales y traducidas:
+* El nombre de las columnas reales y originales encontradas en el archivo .json. Agrego la traducción que me parece más clara y correcta para mi desarrollo del proyecto:
 
   * **customerID →** ID_cliente
   * **Churn →** churn
