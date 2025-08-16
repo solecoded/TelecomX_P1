@@ -50,6 +50,8 @@ Este proyecto tiene como finalidad
 **📕 Nota:** Se indica que los datos a analizar van desde el 1 de enero de 2020 al 31 de marzo del 2023. Esa información la pude sacar por tablas, pero como hay gráficos que no se visualizan en Github, tuve que sacar capturas de pantalla a cada uno de ellos y eso aumentó bastante el peso de mi notebook. Eliminé todo lo que pude, incluyendo las tablas donde se ve la primera y la ultima compra registrada en todas las tiendas para llegar a un peso más liviano.
 
 El proyecto fue realizado en Google Colab y tiene la siguiente estructura:
+* 📚 **Diccionario de mapeo**
+  
 * 📥 **Extracción, verificación y resumen dataframe :**
    * Importa .json / Verifica que la conversión a DataFrame sea exitosa
    * Resumen del DataFrame
