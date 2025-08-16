@@ -52,52 +52,49 @@ Este proyecto tiene como finalidad
 El proyecto fue realizado en Google Colab y tiene la siguiente estructura:
 * 📚 **Diccionario de mapeo**
   
-* 📥 **Extracción, verificación y resumen dataframe :**
+* 📥 **Extracción (E - Extract)**
    * Importa .json / Verifica que la conversión a DataFrame sea exitosa
    * Resumen del DataFrame
  
-* 🔄 **Transformación**
+* 🔄 **Transformación (T - Transform)**
    * Aplanado de columnas
    * Mapeo nombre de columnas a sus traducciones
    * Normalización columna cargosTotales
    * Normalización situación sentimental
    * Normalizacion Datos de internet
    * Normalización columna Dependientes
-   * 
-   
-* 📦 **Ventas por categoría :**
-   * 📊 Porcentaje de ventas por categoría por tiendas
-   * Categorías más vendidas por tienda
-
-* 🛍️ **Productos más vendidos y menos vendidos :**
-   *  Productos con más y menos ventas por tienda
-
-* 🚚 **Costo de envío promedio por tienda :** Un spoiler 🤫 promedio no es la herramienta para llegar al valor correcto. Hay que revisar cómo es la distribución de cantidad de ventas y el costo de los productos vendidos, de lo contrario el valor será uno que no corresponde a la realidad debido a la anomalía de unos datos.
-   * Costo de envío promedio por tienda
-   * Detalle de ventas, costo de envío y porcentaje por tienda
-   * Detalle de ventas por año, por tienda
-   * Detalle de envíos gratuitos por tienda
-   * 📊 Distribución de precios de productos por tienda
-   * Análisis descriptivo del precio de productos por tienda
-   * 📊 Distribución de costos de envío por tienda
-   * Mediana del costo de envío por tienda
-   * Moda del costo de envío por tienda
-   * Análisis del costo de envío por tienda
-   * Análisis del costo de envío por tienda (excluyendo envíos gratuitos)
-   * 📊 Relación entre la moda del costo de despacho y la cantidad de compras por ciudad
-   * Relación entre la moda del costo de despacho y la cantidad de compras por ciudad (Tabla)
+   * Verificación de inconsistencias en la columna "Churn"
+   * Limpieza y recálculo de la columna 'Churn'
+   * DataFrame con la nueva columna 'Cuentas Diarias'
+   * Transformación de variables categóricas a binarias (0/1)
+   * Mapeo al español de valores en la columna tipoContrato
+   * Mapeo numérico de valores en la columna metodoPago
+   * Mapeo de valores numéricos en la columna servicioInternet
+   * Estandarización de columnas binarias churn y facturacionOnline
  
-* ⭐ **Calificación por tienda :**
-   * Calificación promedio por tienda y año
-   * 📊 Calificación promedio anual por tienda
-   * 📊 Relación entre calificaciones e ingresos por tienda
-  
-* 🌎 **Análisis de la distribución geográfica de las ventas**
-   * 📊 Distribución geográfica de ventas por tienda
-   * 📊 Visualización de densidad con agrupamiento por cantidad de ventas
-   * 📊 Concentración de ventas de ciudad por tienda
-   * 📊 Ventas totales por ciudad
-   * 📊 Porcentaje de ventas totales por ciudad
+* 🕵️ **Verificación**
+   * Verificación de existencia de valores duplicados
+   * Verificación de valores nulos (Missing Values)
+   * Verificación de tipos de datos (Data Types)
+   * Verificación de datos anidados
+   * Verificación de duplicados
+   * Verificación de valores únicos y consistencia (Categóricas)
+   * Verificación de estadísticas descriptivas (Numéricas)
+   * Verificación de consistencia lógica (Servicio de internet)
+   * Verificaión final de datos
+   * Verificacion de valores en columnas
+   * Verificación de valores en columnas servicioInternet , tipoContrato y metodoPago     
+
+* 📊 **Carga y Análisis (L - Load & Analysis)**
+   * Análisis descriptivo inicial y correlación
+     * Análisis descriptivo general de churn
+     * Matriz de correlación
+     * Estadísticas descriptivas de variables clave por churn
+     * Métricas (media, mediana y desviación estándar) para permanencia, cargos mensuales y cargos totales
+   * Análisis por variables categóricas
+   * Análisis por variables numéricas
+   * Análisis descriptivo de los datos
+ 
      
 * 🤝 **Conclusiones y recomendaciones:** Esta parte la dividí en 5 secciones para resumir el argumento de por qué vender la tienda que se recomienda. 
    * Ingresos
