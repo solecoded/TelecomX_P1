@@ -164,7 +164,6 @@ Para ejecutar este proyecto, necesitas tener instalado **Python 3.x** (pero en s
 
 * 🐼 **pandas:** Para la manipulación y análisis de los datos.
 * 📊 **matplotlib:** Para la visualización de los gráficos.
-* 🔥 **seaborn:** Para gráficos estadísticos, como el mapa de calor.
 * 🖱️ **plotly:** Para la creación de gráficos interactivos, como los de dispersión y de barras.
 * 👀 **Ipython.display:** Para la correcta visualización del Markdown y las imágenes en el notebook.
 * 🧮 **numpy:** Para operaciones numéricas, especialmente en el análisis de agrupamiento.
