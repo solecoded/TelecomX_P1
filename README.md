@@ -1,6 +1,6 @@
 ![Header](imgs/TelecomX_P1_Header.jpg)
 
-Este proyecto tiene como finalidad 
+Este proyecto tiene como finalidad analizar y comprender el problema del abandono de clientes, conocido como "Churn", en TelecomX. El abandono de clientes es un problema crítico, ya que la retención de clientes es más rentable que la adquisición de nuevos. A través de un análisis exhaustivo de los datos, buscaremos identificar los factores que influyen en el abandono y proponer recomendaciones estratégicas para mitigarlo.
 
 ---
 
