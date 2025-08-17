@@ -140,7 +140,7 @@ El objetivo de este informe es analizar y comprender el problema del abandono de
   * Abandono por tipo de contrato y permanencia
   * Abandono por grupo etario y servicios
   * Abandono por permanencia y cargos
- * 🤝 **Conclusiones e Insights:** El problema de abandono es más severo en el segmento de adultos mayores. Este grupo es un punto crítico para la retención, ya que su tasa de abandono es significativamente más alta en casi todos los servicios.
+ * 📓 **Conclusiones e Insights:** El problema de abandono es más severo en el segmento de adultos mayores. Este grupo es un punto crítico para la retención, ya que su tasa de abandono es significativamente más alta en casi todos los servicios.
   * El abandono es un fenómeno de "etapa temprana"
   * Factores de abandono por segmento
     * Adultos mayores (+65)
