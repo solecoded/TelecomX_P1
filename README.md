@@ -18,7 +18,6 @@ Este proyecto tiene como finalidad analizar y comprender el problema del abandon
   * **tenure →** permanenciaMeses
   * **phone →** telefono
   * **internet →** internet
-  * **account →** cuenta
   * **PhoneService →** servicioTelefonico
   * **MultipleLines →** multiplesLineas
   * **InternetService →** servicioInternet
