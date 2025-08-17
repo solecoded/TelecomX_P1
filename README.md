@@ -43,7 +43,7 @@ Este proyecto tiene como finalidad analizar y comprender el problema del abandon
 * Un informe final incluído en el Notebook (en mi caso)✅
 * Un Readme.md para el proyecto (este mismo documento) ✅
 * Crear una columna de costo diario y ver si hay algún hallazgo...
-  - Correlación entre el costo diario y el abandono.
+  - Correlación entre el costo diario y el abandono. ✅
   - Correlación entre la cantidad de servicios y el abandono ✅
 ---
 
@@ -154,7 +154,8 @@ El objetivo de este informe es analizar y comprender el problema del abandono de
   * Revisión de ofertas de bajo costo
   * Análisis minuciosos con más información
   * Temporalidad
-          
+
+*⚡ **Extra** Creación de columna Costo Diario y matriz de correlación para ver si ese valor, tiene algún tipo de hallazgo juntándola con cantidad de servicios y abandono.           
 ---
 
 ### 
