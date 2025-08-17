@@ -132,28 +132,28 @@ El proyecto fue realizado en Google Colab y tiene la siguiente estructura:
 
 *📔 **Informe**     
 El objetivo de este informe es analizar y comprender el problema del abandono de clientes, conocido como "Churn", en TelecomX. El abandono de clientes es un problema crítico, ya que la retención de clientes es más rentable que la adquisición de nuevos. A través de un análisis exhaustivo de los datos, buscaremos identificar los factores que influyen en el abandono y proponer recomendaciones estratégicas para mitigarlo.
-    * 📤 **Extracción (E - Extract)**
-    * 🔄 **Transformación (T - Transform)**
-    * 🕵️ **Verificación**
-    * 📊 **Carga y Análisis (L - Load & Analysis)**
-      Se realizaron diversos análisis y visualizaciones para identificar patrones y tendencias en el abandono de clientes.
-          * Abandono por tipo de contrato y permanencia
-          * Abandono por grupo etario y servicios
-          * Abandono por permanencia y cargos
-    * 🤝 **Conclusiones e Insights:** El problema de abandono es más severo en el segmento de adultos mayores. Este grupo es un punto crítico para la retención, ya que su tasa de abandono es significativamente más alta en casi todos los servicios.
-          * El abandono es un fenómeno de "etapa temprana"
-          * Factores de abandono por segmento
-               * Adultos mayores (+65)
-               * No adultos mayores
-               * Impacto de la situación de pareja
-               * Método de pago como factor de abandono
-    * 👨‍🏫 Recomendaciones
-          * Estrategias de retención para adultos mayores
-          * Fidelización temprana
-          * Análisis de la experiencia del usuario con fibra óptica
-          * Revisión de ofertas de bajo costo
-          * Análisis minuciosos con más información
-          * Temporalidad
+ * 📤 **Extracción (E - Extract)**
+ * 🔄 **Transformación (T - Transform)**
+ * 🕵️ **Verificación**
+ * 📊 **Carga y Análisis (L - Load & Analysis)**
+ Se realizaron diversos análisis y visualizaciones para identificar patrones y tendencias en el abandono de clientes.
+  * Abandono por tipo de contrato y permanencia
+  * Abandono por grupo etario y servicios
+  * Abandono por permanencia y cargos
+ * 🤝 **Conclusiones e Insights:** El problema de abandono es más severo en el segmento de adultos mayores. Este grupo es un punto crítico para la retención, ya que su tasa de abandono es significativamente más alta en casi todos los servicios.
+  * El abandono es un fenómeno de "etapa temprana"
+  * Factores de abandono por segmento
+    * Adultos mayores (+65)
+    * No adultos mayores
+    * Impacto de la situación de pareja
+    * Método de pago como factor de abandono
+ * 👨‍🏫 Recomendaciones
+  * Estrategias de retención para adultos mayores
+  * Fidelización temprana
+  * Análisis de la experiencia del usuario con fibra óptica
+  * Revisión de ofertas de bajo costo
+  * Análisis minuciosos con más información
+  * Temporalidad
           
 ---
 
